@@ -1,0 +1,13 @@
+main:
+    threads: 1
+    proxyless: False
+    log_proxy_err: False
+    detailed_exception_log: False
+
+email_client:
+    provider: "MailTM"
+    mail_subject: "[Registration] Complete Activation"
+    timeout_seconds: 25
+
+gen:
+    promocode: ""
